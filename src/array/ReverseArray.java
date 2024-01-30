@@ -1,6 +1,4 @@
-package Array;
-
-import java.util.Iterator;
+package array;
 
 public class ReverseArray {
 

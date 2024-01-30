@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class SortElementWithZeroOneAndTwo {
 	public static void sortArray(int[] arr) {

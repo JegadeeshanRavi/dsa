@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 public class Main {
 	    public static int[] shuffle(int[] nums, int n) {
