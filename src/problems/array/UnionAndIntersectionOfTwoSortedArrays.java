@@ -1,4 +1,4 @@
-package problems.arrays;
+package problems;
 
 public class UnionAndIntersectionOfTwoSortedArrays {
     public static void main(String[] args) {

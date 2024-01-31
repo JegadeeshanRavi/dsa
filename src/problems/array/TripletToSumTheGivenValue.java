@@ -1,4 +1,4 @@
-package problems.arrays;
+package problems;
 
 public class TripletToSumTheGivenValue {
 

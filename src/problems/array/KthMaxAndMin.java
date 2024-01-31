@@ -1,4 +1,4 @@
-package problems.arrays;
+package problems;
 
 public class KthMaxAndMin {
     public static void main(String[] args) {
