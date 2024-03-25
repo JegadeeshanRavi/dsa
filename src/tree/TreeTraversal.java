@@ -5,15 +5,15 @@ import java.util.Stack;
 public class TreeTraversal {
 
 	public static void main(String[] args) {
-		BinaryTreeNode root = BinaryTreeNode.getSampleTree();
+		TreeNode root = TreeNode.getSampleTree();
 		// InorderUsingStack(root)
 		System.out.println(maxDepth(root));
 
 	}
 
-	public static void InorderUsingStack(BinaryTreeNode in) {
-		Stack<BinaryTreeNode> insertedData = new Stack<>();
-		BinaryTreeNode root = in;
+	public static void InorderUsingStack(TreeNode in) {
+		Stack<TreeNode> insertedData = new Stack<>();
+		TreeNode root = in;
 		while (true) {
 			if (root != null) {
 				insertedData.push(root);
@@ -22,14 +22,14 @@ public class TreeTraversal {
 				if (insertedData.isEmpty()) {
 					break;
 				}
-				BinaryTreeNode pop = insertedData.pop();
-				System.out.println(pop.data);
+				TreeNode pop = insertedData.pop();
+				System.out.println(pop.val);
 				root = pop.right;
 			}
 		}
 	}
 
-	public static int maxDepth(BinaryTreeNode node) {
+	public static int maxDepth(TreeNode node) {
 		if (node == null)
 			return 0;
 		int lh = maxDepth(node.left);
